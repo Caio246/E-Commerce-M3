@@ -1,0 +1,82 @@
+$color-black: rgb(0, 0, 0);
+$color-white: rgb(255, 255, 255);
+$color-gray: rgb(199, 199, 199);
+$color-gray2: rgb(102, 102, 102);
+$color-blue: rgb(0, 192, 238);
+
+@mixin flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin responsive {
+  @media screen and (max-width: 375px) {
+    .cards {
+      max-width: 100%;
+    }
+
+    .lists {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .produto {
+      width: 45%;
+    }
+
+    section .container-filters {
+      display: none;
+    }
+
+    ul img {
+      width: 100%;
+    }
+
+    .header {
+      height: 40px;
+      padding: 2%;
+    }
+
+    .container-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .model-1 {
+      width: 161px;
+      height: 242px;
+    }
+
+    .lists {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 4px;
+      gap: 15px;
+    }
+
+    .button {
+      width: 80%;
+      height: 33.5px;
+      background: $color-black;
+      border-color: $color-black;
+      color: $color-white;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .container-orderby {
+      padding: 1.5rem 0;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .button-load {
+      width: 195px;
+    }
+  }
+}

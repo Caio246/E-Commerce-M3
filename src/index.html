@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Desenvolvedor M3</title>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="scss/styles.scss">
+  </head>
+
+  <body class="body">
+
+    <!-- Navbar -->
+
+    <header class="header">
+      <div class="container-header">
+          <img class="logo" src="img/logo-m3.png" alt="logo-m3" />
+          <img class="padlock" src="img/image 3.png" alt="content" />
+      </div>
+    </header>
+
+    <!-- Linha Horizoltal -->
+
+    <div class="horizontal-line">
+    </div>
+
+    <!-- Ordenar por -->
+    
+     <section class="orderby">
+      <div class="container-orderby">
+        <div>
+          <h2>BLUSAS</h2>
+        </div>
+
+        <div class="dropdown">
+          <button onclick="OpenDropDown()" class="dropbtn" type="button">Ordenar por: <img src="img/Vector 1.svg" alt="vector"></button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#">Mais recentes</a>
+            <a href="#">Menor preço</a>
+            <a href="#">Maior preço</a>
+          </div>
+        </div>
+        
+     </section>
+
+    <!-- Conteúdo Principal -->
+
+    <div class="content">
+
+    <!-- Sidebar -->
+
+    <section class="filters">
+      <div class="container-filters">
+        <div>
+          <ul class="colors">
+            <div>
+              <h2>CORES</h2>
+            </div>
+            <li class="check">
+              <input class="checkbox" type="checkbox"/>
+              <label> Amarelo </label>
+            </li>
+            <li class="check">
+              <input class="checkbox" type="checkbox"/>
+              <label> Azul </label>
+            </li>
+            <li class="check">
+              <input class="checkbox" type="checkbox"/>
+              <label> Branco </label>
+            </li>
+            <li class="check">
+              <input class="checkbox" type="checkbox"/>
+              <label> Cinza </label>
+            </li>
+            <li class="check">
+              <input class="checkbox" type="checkbox"/>
+              <label> Laranja </label>
+            </li>
+            <li class="check">
+              <input class="checkbox" type="checkbox"/>
+              <label> Verde </label>
+            </li>
+            <li class="check">
+              <input class="checkbox" type="checkbox"/>
+              <label> Vermelho </label>
+            </li>
+            <li class="check">
+              <input class="checkbox" type="checkbox"/>
+              <label> Preto </label>
+            </li>
+            <li class="check">
+              <input class="checkbox" type="checkbox"/>
+              <label> Rosa </label>
+            </li>
+            <li class="check">
+              <input class="checkbox" type="checkbox"/>
+              <label> Vinho </label>
+            </li>
+            <div className="ver-todas">
+              <a href="#"> <p>Ver todas as cores</p></a>
+            </div>
+          </ul>
+          <ul class="sizes">
+            <div>
+              <h2>TAMANHOS</h2>
+            </div>
+            <div class="grid-size">
+              <li>
+                <div class="rectangle">
+                  <p>P</p>
+                </div>
+              </li>
+              <li>
+                <div class="rectangle">
+                  <p>M</p>
+                </div>
+              </li>
+              <li>
+                <div class="rectangle">
+                  <p>G</p>
+                </div>
+              </li>
+              <li>
+                <div class="rectangle">
+                  <p>GG</p>
+                </div>
+              </li>
+              <li>
+                <div class="rectangle">
+                  <p>U</p>
+                </div>
+              </li>
+              <li>
+                <div class="rectangle">
+                  <p>36</p>
+                </div>
+              </li>
+              <li>
+                <div class="rectangle">
+                  <p>38</p>
+                </div>
+              </li>
+              <li>
+                <div class="rectangle">
+                  <p>40</p>
+                </div>
+              </li>
+              <li>
+                <div class="rectangle">
+                  <p>38</p>
+                </div>
+              </li>
+              <li>
+                <div class="rectangle">
+                  <p>38</p>
+                </div>
+              </li>
+              <li>
+                <div class="rectangle">
+                  <p>40</p>
+                </div>
+              </li>
+            </div>
+          </ul>
+          <ul class="amount">
+            <div>
+              <h2>FAIXA DE PREÇO</h2>
+            </div>
+            <div>
+              <li class="check">
+                <input class="checkbox" type="checkbox" />
+                <label> de R$0 até R$50 </label>
+              </li>
+              <li class="check">
+                <input class="checkbox" type="checkbox" />
+                <label> de R$51 até R$150 </label>
+              </li>
+              <li class="check">
+                <input class="checkbox" type="checkbox" />
+                <label> de R$151 até R$300 </label>
+              </li>
+              <li class="check">
+                <input class="checkbox" type="checkbox" />
+                <label> de R$301 até R$500 </label>
+              </li>
+              <li class="check">
+                <input class="checkbox" type="checkbox" />
+                <label> a partir de R$500 </label>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+
+    </section>
+
+     <!-- Listas -->
+
+    <section>
+      <div class="container">
+        <section class="cards">
+            <ul id="lists">
+            </ul>
+        </section>
+        <button class="button-load" type="button">CARREGAR MAIS</button>
+          </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+      <div>
+        <p>M3: IMPLANTAÇÃO DE E-COMMERCE VTEX</p>
+      </div>
+    </footer>
+    
+  </body>
+  <script src="bundle.js"></script>
+</html>
+

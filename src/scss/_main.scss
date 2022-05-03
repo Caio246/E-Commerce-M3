@@ -1,0 +1,105 @@
+.cards {
+  max-width: 100%;
+}
+
+.lists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.produto {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  width: 195px;
+  height: 33.5px;
+  background: $color-black;
+  border-color: $color-black;
+  color: $color-white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+section .container-filters {
+  padding: 1.5rem 0;
+  margin: 0 auto;
+  margin-left: 161px;
+  margin-right: 161px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section .container-orderby {
+  padding: 1.5rem 0;
+  margin: 0 auto;
+  margin-left: 161px;
+  margin-right: 161px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-name {
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: $color-black;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 1rem;
+  color: $color-black;
+  line-height: 22px;
+}
+
+.parcelamento {
+  font-weight: 400;
+  font-size: 1rem;
+  color: $color-gray2;
+}
+
+.content {
+  display: flex;
+  margin-bottom: 50px;
+  padding: 0.5rem 0;
+}
+
+.amount {
+  width: 116%;
+}
+
+.rectangle {
+  width: 32px;
+  height: 32px;
+  border: 1px solid $color-gray;
+  box-sizing: border-box;
+
+  @include flex;
+}
+
+.sizes {
+  width: 153px;
+
+  display: grid;
+  grid-template-columns: auto;
+  flex-wrap: wrap;
+}
+
+.grid-size {
+  display: grid;
+  grid-template-columns: 35px 35px 35px 35px;
+  grid-gap: 5px;
+}
+
+@include responsive;
