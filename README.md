@@ -1,6 +1,6 @@
 # E-Commerce M3
 
-Projeto para avaliar meus conhecimentos fundamentais de front end, <strong>por isso pedimos que não utilizei nenhum framework</strong>.
+Projeto para avaliar meus conhecimentos fundamentais de front end, <strong> não utilizei nenhum framework</strong>.
 
 - Requisição a API para obter os produtos, funcionalidades: filtrar produtos por cor, tamanho e preço, adicionar produto ao carrinho, carregar mais produtos e responsividade.
 
