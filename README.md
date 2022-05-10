@@ -2,7 +2,7 @@
 
 Projeto para avaliar meus conhecimentos fundamentais de front end, <strong>por isso pedimos que não utilize nenhum framework</strong>.
 
-- Requisição a API para obter os produtos, fncionalidades: filtrar produtos por cor, tamanho e preço, adicionar produto ao carrinho, carregar mais produtos e responsividade.
+- Requisição a API para obter os produtos, funcionalidades: filtrar produtos por cor, tamanho e preço, adicionar produto ao carrinho, carregar mais produtos e responsividade.
 
 ### TECNOLOGIAS E FERRAMENTAS UTILIZADAS
 
