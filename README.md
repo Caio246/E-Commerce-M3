@@ -1,30 +1,39 @@
-### Ferramentas Utilizadas
+# E-Commerce M3
 
-- Html5, css3;
-- Javascript;
-- Consumo de APIs.
-- Versionamento Git;
-- Grunt/gulp;
-- Sass/less;
-- Sites responsivos;
-- Iniciativa, criatividade e colaboração;
-- Boas práticas: reutilização de código, semântica, organização, performance.
+Projeto para avaliar meus conhecimentos fundamentais de front end, <strong>por isso pedimos que não utilize nenhum framework</strong>.
+
+- Funcionalidades: Filtrar produtos por cor, tamanho e preço, adicionar produto ao carrinho, carregar mais produtos e responsividade.
+
+### TECNOLOGIAS E FERRAMENTAS UTILIZADAS
 
 
-### Objetivo
+- Front-end:  <img align="center" alt="Caio-Js" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">, <img align="center" alt="Caio-Js" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"> e <img align="center" alt="Caio-Js" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg">.
 
-O objetivo desse desafio é avaliar a seus conhecimentos fundamentais de front end, por isso pedimos que não utilize nenhum framework, porem caso deseje utilizar frameworks como react, é possivel adicionar ao setup.
-### Obrigatório
+- Back-end: <img align="center" alt="Caio-Js" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg">.
 
-- HTML5 e CSS3
-- Requisição a API para obter os produtos
-- Funcionalidade: Filtrar produtos por cor, tamanho e preço.
-- Funcionalidade: Adicionar produto ao carrinho.
-- Funcionalidade: Carregar mais produtos.
-- Não utilizar Bootstrap, Foundation Css, Semantic ui ou semelhantes ;
-- Responsividade
 
-#### Bônus
+## PRINTS
 
-- Javascript sem plugins e modular
-- Adição de processo no gulp para otimizar imagens
+Requisição a API para obter os produtos
+Funcionalidade: Filtrar produtos por cor, tamanho e preço.
+Funcionalidade: Adicionar produto ao carrinho.
+Funcionalidade: Carregar mais produtos.
+Responsividade
+
+Javascript;
+Consumo de APIs.
+Versionamento Git;
+Grunt/gulp;
+Sass/less;
+Sites responsivos;
+Iniciativa, criatividade e colaboração;
+Boas práticas: reutilização de código, semântica, organização, performance.
+
+
+## DEPENDÊNCIAS
+
+Para instalar as dependencias só é preciso executar o comando: `npm install`
+
+O dar start no server e nos processos para desenvolvimento é necessário rodar o comando: `npm start`
+
+Agencia-de-Viagens-Ethernum
